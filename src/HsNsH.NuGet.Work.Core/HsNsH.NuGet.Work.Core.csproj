@@ -4,6 +4,14 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>0.0.2</PackageVersion>
+        <Title>HsNsH NuGet Work Core</Title>
+        <Description>This is a sample descriptions.</Description>
+        <Copyright>HsNsH</Copyright>
+        <RepositoryUrl>https://github.com/hsnsh/nuget-works</RepositoryUrl>
+        <PackageReleaseNotes>Sample release note.Adding Add function.
+        </PackageReleaseNotes>
     </PropertyGroup>
 
 </Project>

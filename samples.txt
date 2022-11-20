@@ -1,0 +1,18 @@
+
+/user/....../.nuget/Nuget/.nuget.config => for Credentials
+
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSourceCredentials>
+    <hsnsh_github>
+      <add key="Username" value="hsnsh" />
+      <add key="ClearTextPassword" value="___personel_access_token_for_nuget_____" />
+    </hsnsh_github>
+  </packageSourceCredentials>
+  <packageSources>
+
+SAMPLE PUSH
+cd src/HsNsH.NuGet.Work.Core
+dotnet nuget push ./bin/debug/HsNsH.NuGet.Work.Core.0.0.2.nupkg --source "hsnsh_github"
+
+

@@ -6,4 +6,9 @@ public class Calculator
     {
         return x + y;
     }
+
+    public double Subtract(double x, double y)
+    {
+        return x - y;
+    }
 }
