@@ -1,11 +1,15 @@
 name: "Deploy to NuGet"
 
 on:
-  push:
+  # push:
+  # branches:
+  # - rel/*
+  # tags:
+  # - 'v*'
+  pull_request:
     branches:
       - rel/*
-    # tags:
-      # - 'v*'
+    types: [opened]
 
 env:
   PROJECT_PATH: 'src/HsNsH.NuGet.Work.Core/HsNsH.NuGet.Work.Core.csproj'
