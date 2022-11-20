@@ -13,7 +13,7 @@ env:
 jobs:
   build:
     name: Deploy Release JOB
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Checkout
